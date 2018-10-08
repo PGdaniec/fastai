@@ -8,7 +8,8 @@ channels:
 - defaults
 - peterjc123
 dependencies:
-- scipy
+- gdal
+- scipy>=1.0.0
 - cuda90
 - cudnn
 - numpy
@@ -96,6 +97,7 @@ dependencies:
 - prompt_toolkit
 - pytest
 - cython
+- conda-forge::fiona>=1.7.13
 - pip:
   - torchvision>=0.1.9
   - opencv-python
